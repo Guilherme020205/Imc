@@ -26,31 +26,31 @@ form.onsubmit = (e) =>{
             resultadoAltura.textContent = "Altura " + altura;
             resultadoImc.textContent ="Aqui o resultado " + imc;
             resultadoImcClassificacao.textContent = "Muito abaixo do Peso!";
-        }else if(imc >= 17 || imc <= 18.9){
+        }else if(imc >= 17 && imc <= 18.9){
             resultadoDescricao.textContent = nome + ", aqui está o resultado do seu IMC:";
             resultadoPeso.textContent = "Peso " + peso + "Kg";
             resultadoAltura.textContent = "Altura " + altura;
             resultadoImc.textContent ="Aqui o resultado " + imc;
             resultadoImcClassificacao.textContent = "Abaixo do Peso!";
-        }else if(imc >= 18 || imc <= 24.9){
+        }else if(imc >= 18 && imc <= 24.9){
             resultadoDescricao.textContent = nome + ", aqui está o resultado do seu IMC:";
             resultadoPeso.textContent = "Peso " + peso + "Kg";
             resultadoAltura.textContent = "Altura " + altura;
             resultadoImc.textContent ="Aqui o resultado " + imc;
             resultadoImcClassificacao.textContent = "Peso Normal!";
-        }else if(imc >= 25 || imc <= 29.9){
+        }else if(imc >= 25 && imc <= 29.9){
             resultadoDescricao.textContent = nome + ", aqui está o resultado do seu IMC:";
             resultadoPeso.textContent = "Peso " + peso + "Kg";
             resultadoAltura.textContent = "Altura " + altura;
             resultadoImc.textContent ="Aqui o resultado " + imc;
             resultadoImcClassificacao.textContent = "Acima do Peso!";
-        }else if(imc >= 30 || imc <= 34.9){
+        }else if(imc >= 30 && imc <= 34.9){
             resultadoDescricao.textContent = nome + ", aqui está o resultado do seu IMC:";
             resultadoPeso.textContent = "Peso " + peso + "Kg";
             resultadoAltura.textContent = "Altura " + altura;
             resultadoImc.textContent ="Aqui o resultado " + imc;
             resultadoImcClassificacao.textContent = "Obesidade Grau I!";
-        }else if(imc >= 35 || imc <= 39.9){
+        }else if(imc >= 35 && imc <= 39.9){
             resultadoDescricao.textContent = nome + ", aqui está o resultado do seu IMC:";
             resultadoPeso.textContent = "Peso " + peso + "Kg";
             resultadoAltura.textContent = "Altura " + altura;
